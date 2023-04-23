@@ -1,0 +1,52 @@
+/* shit that shanges depending
+on screen size goes here this 
+includes header menu*/
+
+
+/* mobile (width<= 450px) */
+@media only screen and (max-width: 450px) {
+/*  "varor" */
+.varor{
+    grid-template-columns: 50% 50%;
+}
+.navHead{
+    width: 100%;
+    grid-template-columns: auto 50% 70px;
+ 
+}
+#menuButton{
+    height: 70px;
+    visibility: visible;
+    grid-column: 3;
+    grid-row: 1;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
+    opacity: .5;
+	border: none;
+	
+  
+    
+}
+
+
+#menu {
+    display: none; 
+   background-color:#ffffff45;
+	min-width: 80px;
+	height: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 0;
+	top: 60px;
+	right: 2.5px;
+	position: fixed;
+    padding: 10px;
+}
+
+
+
+
+
+}
+
+    
