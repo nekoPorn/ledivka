@@ -7,7 +7,7 @@ includes header menu*/
 @media only screen and (max-width: 450px) {
 /*  "varor" */
 .varor{
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
 }
 .navHead{
     width: 100%;
